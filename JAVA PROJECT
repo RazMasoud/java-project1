@@ -1,0 +1,32 @@
+
+package employeetesttt;
+
+public class EmployeeTesttt {
+
+ 
+    public static void main(String[] args) {
+     Employee employee1 = new Employee("RAZ", "MASOUD", 20000.); 
+        Employee employee2 = new Employee("RAZ", "MASOUD", 50000.); 
+     
+
+      
+        System.out.println("NAME              YEARLY SALARY");
+        System.out.println("----------------- ----------------");
+        employee1.display();
+        employee2.display();
+
+        
+        employee1.raisesalary(10);
+        employee2.raisesalary(10);
+     
+
+      System.out.println("\n10 percent salary raised !! yohoo!");
+        System.out.println("NAME                       YEARLY SALARY");
+        System.out.println("----------------------- -------------------");
+        employee1.display();
+        employee2.display();
+    
+    
+    }
+    
+}
